@@ -1,0 +1,262 @@
+
+/*************************
+*******Typography******
+**************************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+body {
+  margin: 5px;
+  border-color: orange;
+  font-family: 'Roboto', sans-serif;
+  background:;
+  position: relative;
+  font-weight:400px;
+}
+
+.aa{
+
+  background: hotpink;
+  width:100%;
+  height: 70px;
+
+}
+
+.rols-colam{
+  width: 100%;
+  background: blue;
+  border-radius:15px ;
+ color: #FFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.rols{
+background:lightcyan ;
+color:#000 ;
+margin: 5px;
+text-align: initial;
+padding-left: 10%;
+padding-right: 10%;
+
+}
+p{
+font-size: 18px;
+
+
+}
+.worning{
+background:yellow;
+border: 5px;
+
+ color: red;
+   text-shadow: 0 0 3px #FF0000;
+border-radius: 10px;
+
+
+}
+
+
+.menu{
+  width: 100%;
+}
+
+
+.zinsa{
+  width: 100%;
+background: skyblue;
+border-radius:15px ;
+color: #000;
+text-align:center ;
+font-size: 25px;
+}
+.copy{
+  width: 100%;
+  background:yellowgreen;
+ color: #FFF;
+ border-radius:15px ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+
+
+
+}
+
+.rolsimg{
+ width: 100%;
+  background:fff;
+ 
+ border-radius:15px ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+
+
+}
+
+.list-item  {
+width: 100%;
+height: auto;
+margin: 10px;
+margin: auto;
+padding-left: 5px;
+position: relative;
+border-radius: 20px;
+background: #FE980F;
+
+
+}
+.items{
+  width: 18%;
+  display: inline-block;
+margin: auto;
+text-align: center;
+font-size: 12px;
+
+
+}
+
+
+
+/*************************
+******* Home ******
+**************************/
+
+
+#slider {
+  padding-bottom: 45px;
+}
+
+.carousel-indicators li {
+  background: #C4C4BE;
+}
+
+.active {
+	  background:;
+    color: #FFF;
+}
+
+
+
+.pricing {
+  position: absolute;
+  right: 40%;
+  top: 52%;
+}
+
+.girl {
+  margin-left: 0;
+}
+
+.item h1 {
+  color: #B4B1AB;
+  font-family: abel;
+  font-size: 48px;
+  margin-top: 115px;
+}
+
+.item h1 span {
+	color:#FE980F;
+}
+
+.item h2 {
+  color: #363432;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 22px;
+  margin-top: 10px;
+}
+
+.item  p {
+	color:#363432;
+	font-size:16px;
+	font-weight:300;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+.control-carousel {
+  position: absolute;
+  top: 50%;
+  font-size: 60px;
+  color: #C2C2C1;
+}
+
+.control-carousel:hover{
+  color: #FE980F ;
+}
+
+.right {
+  right: 0;
+}
+
+.category-products {
+  border: 1px solid #F7F7F0;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+.left-sidebar h2, .brands_products h2 {
+  color: #FE980F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 auto 30px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index:3;
+}
+
+.left-sidebar h2:after, h2.title:after{
+	content: " ";
+	position: absolute;
+	border: 1px solid #f5f5f5;
+	bottom:8px;
+	left: 0;
+	width: 100%;
+	height: 0;
+	z-index: -2;
+}
+
+.left-sidebar h2:before{
+	content: " ";
+	position: absolute;
+	background: #fff;
+	bottom: -6px;
+	width: 130px;
+	height: 30px;
+	z-index: -1;
+	left: 50%;
+	margin-left: -65px;
+}
+/*************************
+******* //costromer service// ******
+**************************/
+table, td, th {
+  border: 1px solid;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  background:#FE980F  ;
+}
+
+td {
+
+  border: 1px solid;
+  text-align: center;
+  font-size: 15px;
+  color: #000;
+  background:#FE980F  ;
+  position: relative;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+
+}
