@@ -7,7 +7,7 @@
 @import url(http://fonts.googleapis.com/css?family=Abel);
 
 body {
-  margin: 5px;
+  margin: 1px;
   border-color: orange;
   font-family: 'Roboto', sans-serif;
   background:;
@@ -17,9 +17,19 @@ body {
 
 .aa{
 
-  background: hotpink;
+  background: green;
   width:100%;
   height: 70px;
+border-radius: 4px;
+position: absolute;
+
+
+}
+.aa h1{
+font-size: 28px;
+color: #fff;
+
+
 
 }
 
@@ -30,19 +40,23 @@ body {
  color: #FFF;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
+
 }
 
 .rols{
 background:lightcyan ;
 color:#000 ;
-margin: 5px;
+margin: 2px;
 text-align: initial;
-padding-left: 10%;
-padding-right: 10%;
+padding-left: 2%;
+padding-right: 2%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+padding-bottom: 10px;
 
 }
 p{
-font-size: 18px;
+font-size: 12px;
 
 
 }
@@ -66,17 +80,20 @@ border-radius: 10px;
 .zinsa{
   width: 100%;
 background: skyblue;
-border-radius:15px ;
+border-radius:5px ;
 color: #000;
+ border-style: solid;
+  border-color: coral;
 text-align:center ;
 font-size: 25px;
+text-shadow: 2px 2px #FFf;
+
 }
 .copy{
   width: 100%;
-  background:yellowgreen;
- color: #FFF;
- border-radius:15px ;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ color: #000;
+ border-radius:0px ;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
   text-align: center;
 
 
@@ -97,12 +114,14 @@ font-size: 25px;
 .list-item  {
 width: 100%;
 height: auto;
-margin: 10px;
-margin: auto;
+
 padding-left: 5px;
 position: relative;
-border-radius: 20px;
+
+border-radius: 5px;
 background: #FE980F;
+
+
 
 
 }
@@ -111,7 +130,7 @@ background: #FE980F;
   display: inline-block;
 margin: auto;
 text-align: center;
-font-size: 12px;
+font-size:10px;
 
 
 }
@@ -130,10 +149,15 @@ font-size: 12px;
 .carousel-indicators li {
   background: #C4C4BE;
 }
+.col-sm-6{
+
+  margin-top: 30px;
+}
 
 .active {
 	  background:;
     color: #FFF;
+
 }
 
 
@@ -247,7 +271,7 @@ td {
 
   border: 1px solid;
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
   color: #000;
   background:#FE980F  ;
   position: relative;
